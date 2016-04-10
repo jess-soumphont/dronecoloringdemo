@@ -15,6 +15,10 @@
 		F011DB801CB9EE6700A2B51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F011DB7E1CB9EE6700A2B51E /* LaunchScreen.storyboard */; };
 		F011DB8B1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB8A1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m */; };
 		F011DB961CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB951CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m */; };
+		F05530FB1CB9EFFE00778720 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05530FA1CB9EFFE00778720 /* Twitter.framework */; };
+		F05530FD1CB9F01000778720 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05530FC1CB9F01000778720 /* UIKit.framework */; };
+		F05530FF1CB9F01800778720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05530FE1CB9F01800778720 /* Foundation.framework */; };
+		F05531011CB9F01F00778720 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05531001CB9F01F00778720 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		F011DB911CB9EE6700A2B51E /* DroneColoringBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneColoringBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F011DB951CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneColoringBookDemoUITests.m; sourceTree = "<group>"; };
 		F011DB971CB9EE6700A2B51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F05530FA1CB9EFFE00778720 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		F05530FC1CB9F01000778720 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F05530FE1CB9F01800778720 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F05531001CB9F01F00778720 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05531011CB9F01F00778720 /* CoreGraphics.framework in Frameworks */,
+				F05530FF1CB9F01800778720 /* Foundation.framework in Frameworks */,
+				F05530FD1CB9F01000778720 /* UIKit.framework in Frameworks */,
+				F05530FB1CB9EFFE00778720 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +93,10 @@
 		F011DB641CB9EE6700A2B51E = {
 			isa = PBXGroup;
 			children = (
+				F05531001CB9F01F00778720 /* CoreGraphics.framework */,
+				F05530FE1CB9F01800778720 /* Foundation.framework */,
+				F05530FC1CB9F01000778720 /* UIKit.framework */,
+				F05530FA1CB9EFFE00778720 /* Twitter.framework */,
 				F011DB6F1CB9EE6700A2B51E /* DroneColoringBookDemo */,
 				F011DB891CB9EE6700A2B51E /* DroneColoringBookDemoTests */,
 				F011DB941CB9EE6700A2B51E /* DroneColoringBookDemoUITests */,
@@ -496,6 +512,7 @@
 				F011DB9C1CB9EE6700A2B51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F011DB9D1CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				F011DB9F1CB9EE6700A2B51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F011DBA01CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				F011DBA21CB9EE6700A2B51E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
