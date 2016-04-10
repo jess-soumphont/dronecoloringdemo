@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F011DB721CB9EE6700A2B51E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB711CB9EE6700A2B51E /* main.m */; };
+		F011DB751CB9EE6700A2B51E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB741CB9EE6700A2B51E /* AppDelegate.m */; };
+		F011DB781CB9EE6700A2B51E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB771CB9EE6700A2B51E /* ViewController.m */; };
+		F011DB7B1CB9EE6700A2B51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F011DB791CB9EE6700A2B51E /* Main.storyboard */; };
+		F011DB7D1CB9EE6700A2B51E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F011DB7C1CB9EE6700A2B51E /* Assets.xcassets */; };
+		F011DB801CB9EE6700A2B51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F011DB7E1CB9EE6700A2B51E /* LaunchScreen.storyboard */; };
+		F011DB8B1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB8A1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m */; };
+		F011DB961CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F011DB951CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F011DB871CB9EE6700A2B51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F011DB651CB9EE6700A2B51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F011DB6C1CB9EE6700A2B51E;
+			remoteInfo = DroneColoringBookDemo;
+		};
+		F011DB921CB9EE6700A2B51E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F011DB651CB9EE6700A2B51E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F011DB6C1CB9EE6700A2B51E;
+			remoteInfo = DroneColoringBookDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F011DB6D1CB9EE6700A2B51E /* DroneColoringBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DroneColoringBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011DB711CB9EE6700A2B51E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F011DB731CB9EE6700A2B51E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F011DB741CB9EE6700A2B51E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F011DB761CB9EE6700A2B51E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F011DB771CB9EE6700A2B51E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F011DB7A1CB9EE6700A2B51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F011DB7C1CB9EE6700A2B51E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F011DB7F1CB9EE6700A2B51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F011DB811CB9EE6700A2B51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F011DB861CB9EE6700A2B51E /* DroneColoringBookDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneColoringBookDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011DB8A1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneColoringBookDemoTests.m; sourceTree = "<group>"; };
+		F011DB8C1CB9EE6700A2B51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F011DB911CB9EE6700A2B51E /* DroneColoringBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroneColoringBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F011DB951CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneColoringBookDemoUITests.m; sourceTree = "<group>"; };
+		F011DB971CB9EE6700A2B51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F011DB6A1CB9EE6700A2B51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB831CB9EE6700A2B51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB8E1CB9EE6700A2B51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F011DB641CB9EE6700A2B51E = {
+			isa = PBXGroup;
+			children = (
+				F011DB6F1CB9EE6700A2B51E /* DroneColoringBookDemo */,
+				F011DB891CB9EE6700A2B51E /* DroneColoringBookDemoTests */,
+				F011DB941CB9EE6700A2B51E /* DroneColoringBookDemoUITests */,
+				F011DB6E1CB9EE6700A2B51E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F011DB6E1CB9EE6700A2B51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F011DB6D1CB9EE6700A2B51E /* DroneColoringBookDemo.app */,
+				F011DB861CB9EE6700A2B51E /* DroneColoringBookDemoTests.xctest */,
+				F011DB911CB9EE6700A2B51E /* DroneColoringBookDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F011DB6F1CB9EE6700A2B51E /* DroneColoringBookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F011DB731CB9EE6700A2B51E /* AppDelegate.h */,
+				F011DB741CB9EE6700A2B51E /* AppDelegate.m */,
+				F011DB761CB9EE6700A2B51E /* ViewController.h */,
+				F011DB771CB9EE6700A2B51E /* ViewController.m */,
+				F011DB791CB9EE6700A2B51E /* Main.storyboard */,
+				F011DB7C1CB9EE6700A2B51E /* Assets.xcassets */,
+				F011DB7E1CB9EE6700A2B51E /* LaunchScreen.storyboard */,
+				F011DB811CB9EE6700A2B51E /* Info.plist */,
+				F011DB701CB9EE6700A2B51E /* Supporting Files */,
+			);
+			path = DroneColoringBookDemo;
+			sourceTree = "<group>";
+		};
+		F011DB701CB9EE6700A2B51E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F011DB711CB9EE6700A2B51E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F011DB891CB9EE6700A2B51E /* DroneColoringBookDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F011DB8A1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m */,
+				F011DB8C1CB9EE6700A2B51E /* Info.plist */,
+			);
+			path = DroneColoringBookDemoTests;
+			sourceTree = "<group>";
+		};
+		F011DB941CB9EE6700A2B51E /* DroneColoringBookDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F011DB951CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m */,
+				F011DB971CB9EE6700A2B51E /* Info.plist */,
+			);
+			path = DroneColoringBookDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F011DB6C1CB9EE6700A2B51E /* DroneColoringBookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F011DB9A1CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemo" */;
+			buildPhases = (
+				F011DB691CB9EE6700A2B51E /* Sources */,
+				F011DB6A1CB9EE6700A2B51E /* Frameworks */,
+				F011DB6B1CB9EE6700A2B51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DroneColoringBookDemo;
+			productName = DroneColoringBookDemo;
+			productReference = F011DB6D1CB9EE6700A2B51E /* DroneColoringBookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F011DB851CB9EE6700A2B51E /* DroneColoringBookDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F011DB9D1CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoTests" */;
+			buildPhases = (
+				F011DB821CB9EE6700A2B51E /* Sources */,
+				F011DB831CB9EE6700A2B51E /* Frameworks */,
+				F011DB841CB9EE6700A2B51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F011DB881CB9EE6700A2B51E /* PBXTargetDependency */,
+			);
+			name = DroneColoringBookDemoTests;
+			productName = DroneColoringBookDemoTests;
+			productReference = F011DB861CB9EE6700A2B51E /* DroneColoringBookDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F011DB901CB9EE6700A2B51E /* DroneColoringBookDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F011DBA01CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoUITests" */;
+			buildPhases = (
+				F011DB8D1CB9EE6700A2B51E /* Sources */,
+				F011DB8E1CB9EE6700A2B51E /* Frameworks */,
+				F011DB8F1CB9EE6700A2B51E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F011DB931CB9EE6700A2B51E /* PBXTargetDependency */,
+			);
+			name = DroneColoringBookDemoUITests;
+			productName = DroneColoringBookDemoUITests;
+			productReference = F011DB911CB9EE6700A2B51E /* DroneColoringBookDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F011DB651CB9EE6700A2B51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jess Soumphont";
+				TargetAttributes = {
+					F011DB6C1CB9EE6700A2B51E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F011DB851CB9EE6700A2B51E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F011DB6C1CB9EE6700A2B51E;
+					};
+					F011DB901CB9EE6700A2B51E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F011DB6C1CB9EE6700A2B51E;
+					};
+				};
+			};
+			buildConfigurationList = F011DB681CB9EE6700A2B51E /* Build configuration list for PBXProject "DroneColoringBookDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F011DB641CB9EE6700A2B51E;
+			productRefGroup = F011DB6E1CB9EE6700A2B51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F011DB6C1CB9EE6700A2B51E /* DroneColoringBookDemo */,
+				F011DB851CB9EE6700A2B51E /* DroneColoringBookDemoTests */,
+				F011DB901CB9EE6700A2B51E /* DroneColoringBookDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F011DB6B1CB9EE6700A2B51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011DB801CB9EE6700A2B51E /* LaunchScreen.storyboard in Resources */,
+				F011DB7D1CB9EE6700A2B51E /* Assets.xcassets in Resources */,
+				F011DB7B1CB9EE6700A2B51E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB841CB9EE6700A2B51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB8F1CB9EE6700A2B51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F011DB691CB9EE6700A2B51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011DB781CB9EE6700A2B51E /* ViewController.m in Sources */,
+				F011DB751CB9EE6700A2B51E /* AppDelegate.m in Sources */,
+				F011DB721CB9EE6700A2B51E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB821CB9EE6700A2B51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011DB8B1CB9EE6700A2B51E /* DroneColoringBookDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F011DB8D1CB9EE6700A2B51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F011DB961CB9EE6700A2B51E /* DroneColoringBookDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F011DB881CB9EE6700A2B51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F011DB6C1CB9EE6700A2B51E /* DroneColoringBookDemo */;
+			targetProxy = F011DB871CB9EE6700A2B51E /* PBXContainerItemProxy */;
+		};
+		F011DB931CB9EE6700A2B51E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F011DB6C1CB9EE6700A2B51E /* DroneColoringBookDemo */;
+			targetProxy = F011DB921CB9EE6700A2B51E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F011DB791CB9EE6700A2B51E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F011DB7A1CB9EE6700A2B51E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F011DB7E1CB9EE6700A2B51E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F011DB7F1CB9EE6700A2B51E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F011DB981CB9EE6700A2B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F011DB991CB9EE6700A2B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F011DB9B1CB9EE6700A2B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneColoringBookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F011DB9C1CB9EE6700A2B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DroneColoringBookDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F011DB9E1CB9EE6700A2B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DroneColoringBookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneColoringBookDemo.app/DroneColoringBookDemo";
+			};
+			name = Debug;
+		};
+		F011DB9F1CB9EE6700A2B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DroneColoringBookDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DroneColoringBookDemo.app/DroneColoringBookDemo";
+			};
+			name = Release;
+		};
+		F011DBA11CB9EE6700A2B51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DroneColoringBookDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DroneColoringBookDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F011DBA21CB9EE6700A2B51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DroneColoringBookDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tester.DroneColoringBookDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DroneColoringBookDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F011DB681CB9EE6700A2B51E /* Build configuration list for PBXProject "DroneColoringBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011DB981CB9EE6700A2B51E /* Debug */,
+				F011DB991CB9EE6700A2B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F011DB9A1CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011DB9B1CB9EE6700A2B51E /* Debug */,
+				F011DB9C1CB9EE6700A2B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F011DB9D1CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011DB9E1CB9EE6700A2B51E /* Debug */,
+				F011DB9F1CB9EE6700A2B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F011DBA01CB9EE6700A2B51E /* Build configuration list for PBXNativeTarget "DroneColoringBookDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011DBA11CB9EE6700A2B51E /* Debug */,
+				F011DBA21CB9EE6700A2B51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F011DB651CB9EE6700A2B51E /* Project object */;
+}
